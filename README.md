@@ -5,3 +5,7 @@ Angular is actually just used as a module/dependency system. At the time I was m
 
 Here's the demo: 
 http://www.justgoscha.com/MicroMachinesJS/
+
+Controls:
+W,S,A,D
+Up, Down, Left, Right
