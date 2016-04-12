@@ -1,0 +1,36 @@
+<html ng-app="app">
+<head>
+  <title>Micro Machines Proto</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/autocomplete.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
+  
+</head>
+<body>
+
+<header>
+  <h1><span class="thin">AngularJS:</span> MicroMachines Proto</h1>
+</header>
+
+  <div ng-controller="DebugCtrl">
+    FPS: {{fps()}} 
+  </div>
+  <div>
+    <div class="main">
+      <canvas width="800" height="600" id="canvas" game></canvas>
+
+    </div>
+
+
+  </div>
+
+
+<footer>
+    made by <a href="http://github.com/justgoscha">justGoscha</a>
+</footer>
+
+<script type="text/javascript" src="script/app.js"></script>
+
+</body>
+</html>
